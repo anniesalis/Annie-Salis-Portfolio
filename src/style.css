@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    padding: 10px;
+    margin: 10px;
+}
+
+.annie-logo {
+    width: 100px;
+}
+
+.container {
+    max-width: 800px;
+}
+.contact {
+    text-align: center;
+}
