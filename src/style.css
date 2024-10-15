@@ -1,19 +1,74 @@
-h1 {
+:root {
+    --primary-color: #6c63ff; 
+    
+}
+
+h1{
     text-align: center;
+        
+}
+p {
+    color: rgb(208, 238, 241);
+    text-align: justify;
+    font-size: 16px;
 }
 
-body {
-    padding: 10px;
-    margin: 10px;
+a {
+    font-size: 18px;
+    text-decoration: none;
 }
 
-.annie-logo {
+.annie-pic {
     width: 100px;
+    border-radius: 100%;
+}
+.annie-logo {
+    width: 300px;
+}
+.container {
+    margin: 100px 0;
+    background-color: black; 
+    padding-top: 50px;
+    border-radius: 20px;
+    }
+    
+.contact-button {
+    background-color: var(--primary-color);
+    border: #6c63ff;
+}
+.contact-button :hover {
+
+}
+.annie {
+    color: blueviolet;
+    font-size: 60px;
 }
 
-.container {
-    max-width: 800px;
+.profile-photo {
+    width: 200px;
+    border-radius: 10px;
+    
 }
-.contact {
-    text-align: center;
-}
+
+@media (max-width: 576px) {
+    h1 {
+      font-size: 48px;
+      line-height: 1.5;
+    }
+  
+    h2 {
+      font-size: 32px;
+      text-align: center;
+    }
+  
+    p {
+      text-align: center;
+    }
+  
+    .project-link {
+      display: block;
+      text-align: center;
+      margin: 0 20px;
+    }
+  }
+  
