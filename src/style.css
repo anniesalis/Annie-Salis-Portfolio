@@ -1,10 +1,17 @@
+
+
 :root {
     --primary-color: #6c63ff; 
-    
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);    
 }
 
+body {
+    margin: 100px 0;
+}
 h1{
     text-align: center;
+    
         
 }
 p {
@@ -18,30 +25,54 @@ a {
     text-decoration: none;
 }
 
+
+ul :virtual-assistant {
+    list-style-type: none !important;
+}
 .annie-pic {
     width: 100px;
     border-radius: 100%;
 }
 .annie-logo {
-    width: 300px;
+    width: 400px;
 }
 .container {
-    margin: 100px 0;
+    
     background-color: black; 
-    padding-top: 50px;
+    padding: 50px;
     border-radius: 20px;
     }
     
-.contact-button {
-    background-color: var(--primary-color);
-    border: #6c63ff;
-}
-.contact-button :hover {
-
-}
+.primary-link {
+    border-radius: 5px;
+    padding: 22px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    margin-right: 30px;
+    border: 1px solid var(--primary-color);
+  }
+  
+  .primary-link:hover {
+    color: white;
+  }
+  
+  .secondary-link {
+    margin-left: 30px;
+    border-radius: 5px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+  
 .annie {
     color: blueviolet;
-    font-size: 60px;
+    font-size: 40px;
+    
 }
 
 .profile-photo {
@@ -51,7 +82,7 @@ a {
 }
 
 @media (max-width: 576px) {
-    h1 {
+    stan {
       font-size: 48px;
       line-height: 1.5;
     }
@@ -70,5 +101,10 @@ a {
       text-align: center;
       margin: 0 20px;
     }
+    .biography {
+    font-size: 13px;
+    }
+    
+    
   }
   
