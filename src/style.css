@@ -47,18 +47,19 @@ footer {
     
     background-color: black; 
     padding: 50px;
-    border-radius: 20px;
+    
     }
     
 .secondary-link {
     border-radius: 10px;
-    padding: 20px 15px;
+    padding: 10px;
     text-decoration: none;
     text-transform: capitalize;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
     border: 1px solid var(--primary-color);
+    
   }
   
   .primary-link:hover {
@@ -77,9 +78,10 @@ footer {
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
   }
+
   .poem-link {
     border-radius: 10px;
-    padding: 20px 15px;
+    padding: 13px;
     text-decoration: none;
     text-transform: capitalize;
     background-color: rgb(56, 17, 56);
@@ -87,6 +89,7 @@ footer {
     border: 1px solid rgb(22, 10, 22);
 
   }
+  
 .annie {
     color: blueviolet;
     font-size: 40px;
