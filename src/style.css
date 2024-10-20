@@ -46,6 +46,29 @@ footer {
     width: 250px;
     border-radius: 50px;
 }
+.annie {
+  color: blueviolet;
+  font-size: 40px;
+}
+
+.about-annie {
+width: 100%;
+}
+
+.profile-photo {
+  width: 200px;
+  border-radius: 10px;
+  
+}
+
+.biography {
+  line-height: 1.5;
+  letter-spacing: 2px;
+  text-align: justify;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .container {
     
     background-color: black; 
@@ -93,24 +116,6 @@ footer {
 
   }
   
-.annie {
-    color: blueviolet;
-    font-size: 40px;
-}
-
-.about-annie {
-  width: 100%;
-}
-
-.profile-photo {
-    width: 200px;
-    border-radius: 10px;
-    
-}
-
-.annie-logo {
-  height: 50px;
-}
 
 @media (max-width: 576px) {
     stan {
@@ -133,7 +138,7 @@ footer {
       margin: 0 20px;
     }
     .biography {
-    font-size: 13px;
+    font-size: 14px;
     }
 
     .about-annie {
