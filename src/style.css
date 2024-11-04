@@ -9,7 +9,7 @@
 body {
     margin: 100px 0;
 }
-h1 {
+main {
     text-align: center;
     
         
@@ -105,7 +105,20 @@ border-radius: 100%;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
   }
-
+  .work-link {
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 20px 15px;
+    text-decoration: none;
+    border: 1px solid white;
+  
+    background-color: black;
+  color: whitesmoke;
+  }
+.work-link:hover {
+  color: black;
+  background-color: white;
+}
   .poem-link {
     border-radius: 10px;
     padding: 13px;

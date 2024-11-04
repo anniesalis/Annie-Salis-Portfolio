@@ -13,9 +13,9 @@ let typewriter = new Typewriter(app, {
 
 
 typewriter
-  .typeString('<span style="color: powderblue;">Hi, I am Annie Salis')
+  .typeString('<span style="color: powderblue; ">Hi, I am Annie Salis')
   .pauseFor(300)
-  .typeString('<br> <span style="color: blueviolet;"><h2> A Front-End Developer Based in Europe!')
+  .typeString('<br> <span style="color: blueviolet;"><h2> FrontEnd Engineer || Virtual Assistant')
   .pauseFor()
   .start();
 
