@@ -27,11 +27,8 @@ a {
 
 
 
-li {
-    list-style: none !important;
-    
-    
-}
+ 
+
 
 footer {
     display: flex;
@@ -131,7 +128,7 @@ padding: 10px ;
   }
   
 
-@media (max-width: 576px) {
+@media (max-width: 576 px) {
     stan {
       font-size: 48px;
       line-height: 1.5;
@@ -144,6 +141,7 @@ padding: 10px ;
   
     p {
       text-align: center;
+      text-align: right;
     }
   
     .project-link {
