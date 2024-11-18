@@ -128,7 +128,7 @@ padding: 10px ;
   }
   
 
-@media (max-width: 576 px) {
+@media (max-width: 576px) {
     stan {
       font-size: 48px;
       line-height: 1.5;
