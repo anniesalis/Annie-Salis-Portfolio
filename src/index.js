@@ -13,9 +13,9 @@ let typewriter = new Typewriter(app, {
 
 
 typewriter
-  .typeString('<span style="color: powderblue; ">Hi, I am Annie Salis')
+  .typeString('<span style="color: yellow; ">Hi👋 <br> I am Annie Salis')
   .pauseFor(300)
-  .typeString('<br> <span style="color: var(--primary-color);"><h2> FrontEnd Engineer || Virtual Assistant')
+  .typeString('<br> <span style="color: var(--primary-color);"><h2> FrontEnd Engineer || Virtual Support')
   .pauseFor()
   .start();
 
@@ -34,5 +34,3 @@ typewriter
   let themeButton = document.querySelector("button");
   themeButton.addEventListener("click", changeTheme);
 
-  
- 

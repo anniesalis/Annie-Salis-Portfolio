@@ -159,8 +159,8 @@ padding: 10px ;
     }
   
     p {
-      text-align: center;
-      font-size: 14px;
+      text-align: left;
+      font-size: 13px;
       
     }
   
@@ -215,7 +215,7 @@ padding: 10px ;
     }
    .container
    {
-    max-width: 50%;
+    max-width: 100%;
    }
    .annie-pic {
    width:  70px;
