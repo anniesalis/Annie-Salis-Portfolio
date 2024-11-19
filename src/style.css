@@ -37,12 +37,9 @@ footer {
 }
 .annie-pic {
     width: 100px;
-    border-radius: 100%;
+    border-radius: 10%;
 }
-.annie-logo {
-    width: 250px;
-    border-radius: 50px;
-}
+
 .annie {
   color: blueviolet;
   font-size: 40px;
@@ -70,7 +67,7 @@ padding: 10px ;
 .container {
     
     background-color: black; 
-    padding: 50px;
+    
     
     }
     
@@ -107,9 +104,9 @@ padding: 10px ;
     border-radius: 10px;
     padding: 20px 15px;
     text-decoration: none;
-    border: 1px solid white;
+    border: 1px solid var(--primary-color);
   
-    background-color: black;
+    background-color: var(--primary-color);
   color: whitesmoke;
   }
 .work-link:hover {
@@ -127,8 +124,30 @@ padding: 10px ;
 
   }
   
+  .dark {
+    background: white;
+    color: black;
+  }
+  .dark a {
+    color: black;
+    
+  }
+  .dark p {
+    color: black;
+  }
+  .dark .container {
+    background: #fff;
+  }
+  .dark {
+    color: #fff;
+  }
 
-@media (max-width: 576px) {
+  
+
+  
+  
+@media (max-width: 756px) {
+  
     stan {
       font-size: 48px;
       line-height: 1.5;
@@ -141,22 +160,66 @@ padding: 10px ;
   
     p {
       text-align: center;
-      text-align: right;
+      font-size: 14px;
+      
     }
   
-    .project-link {
-      display: block;
-      text-align: center;
-      margin: 0 20px;
-    }
-    .biography {
-    font-size: 14px;
-    }
+  .primary-link:hover {
+    background: var(--primary-color);
+    color: white;
+    opacity: 0.6;
 
+  }
+  
+ 
+  .primary-link:hover {
+    background: rgb(92, 68, 179);
+    color: white;
+    opacity: 0.6;
+
+  }
+  
+  .primary-link {
+    display: inline-block;
+    font-size: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    max-width: 100%;
+  }
+  .work-link {
+    display: inline-block;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding: 20px 15px;
+    text-decoration: none;
+    border: 1px solid wvar(--primary-color);
+    max-width: 100%;
+    background-color: var(--primary-color);
+  color: whitesmoke;
+  font-size: 10px;
+  max-width: 100%;
+  }
+ 
+   
+.work-link:hover {
+  color: black;
+  background-color: white;
+}
     .about-annie {
       max-width: 50%;
     }
-    
-    
+   .container
+   {
+    max-width: 50%;
+   }
+   .annie-pic {
+   width:  70px;
+   border-radius: 10px;
+   }
   }
   

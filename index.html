@@ -19,16 +19,21 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://kit.fontawesome.com/4f4b857648.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+ 
 
     <title>Annie Salis - frontend developer</title>
 </head>
 <body>
-  <div class="container">
+  
+  <div class="container ">
+    <button>Change Theme</button>
         <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img
-              src="others/images/IMG_logo.jpg"
+              src="others/images/logoannie.jpg"
               alt="annie-salis" title="annie-salis"
               class="img-fluid annie-pic"
             />
@@ -48,27 +53,36 @@
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link fw-bold"
                   aria-current="page"
                   href="/">Home</a>
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link fw-bold"
                   aria-current="page"
-                  href="/others/about.html#biography">About Me</a
-                >
+                  
+                   href="/others/about.html#projects" class="work-link color-light">Projects</a> 
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link fw-bold"
+                  aria-current="page"
+                  
+                  href="/others/about.html#biography">About Me</a
+                >
+            
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fw-bold"
                   aria-current="page"
                   href="/others/about.html#services">Services</a
                 >
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link fw-bold"
                   aria-current="page"
                   target="_blank"
                   href="https://www.amazon.com/What-Next-Overcoming-Fulfilling-Destiny-ebook/dp/B0DJ3MJQ8W/ref=sr_1_1?crid=2EC6T351UV4JC&dib=eyJ2IjoiMSJ9.wxTP1y2KA-Dvdpn69YRHLXOnx2MgIF1Y-9ra3EtHyIlxWQGq3i8OtGX640ay_2a2m1XxcRpLr1eKnHoTdotpxUkpZDcxg2yB_ZU3Jx3N78-PFQ1mOYMkg1EPjuAdDFee.f3b1_tJjoTX2s4CCsGbBHNXYikuuHo9n5HxWch0lFgs&dib_tag=se&keywords=what+next..+overcoming+the+fear+of+death&qid=1730766489&sprefix=what+next..+overcoming+the+fear+of+death%2Caps%2C188&sr=8-1" title="annie-salis">Amazon Store</a
@@ -84,39 +98,283 @@
   <main>
   <div class="row">
     <div class="col-sm-6">
-      <img src="others/images/image.png" class="img-fluid annie-salis alt= annie-salis">
+      <img src="others/images/homepage.png" class="img-fluid annie-salis alt= annie-salis">
         </div>
     <br>
     <div class="col-sm-6">
       
       <h1 id="annie"> 
+        <hr>
+
         FrontEnd Engineer || Virtual Assistant </h1>
         <a href="/others/about.html#contact" class="primary-link">Contact Me</a> 
          <a href="/others/about.html#projects" class="work-link color-light">My Projects</a> 
     </div>
+    <hr>
+    <h5 class="text-center text-secondary fst-italic fst-bold">Checkout some of my projects⬇️</h5>
+    <br>
+    <div class="row">
+      <div class="col-sm-6">
+        <a href="https://world-clock-by-anniesalis.netlify.app/">
+        <img
+          src="/others/images/clock.png"
+          alt="World-clock project "
+          class="img-fluid rounded d-none d-sm-block"
+        />
+      </a>
+      </div>
+
+      <div class="col-sm-6">
+        <h2 class="mb-3 text-light">World-Clock app</h2>
+        <p>
+          The World Clock App allows users to select various cities from a dropdown list to view the local time. The background and styling are visually appealing, displaying the map and hand patterns in the UI.
+
+Features inlude; Real-time clock display for multiple cities, Dropdown list for easy city selection and Dynamic date and time based on the city selected, Beautiful background and UI layout.
+Tech Stack: HTML, CSS and JavaScript
+        </p>
+        <div class="mt-0">
+          <a href="https://world-clock-by-anniesalis.netlify.app/" class="secondary-link project-link" title="Yoga project"
+            >Launch App</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-sm-6">
+        <h2 class="mb-3 text-light">Weather App</h2>
+        <p>
+          
+The Weather App fetches real-time weather data for any location entered by the user. The app displays the current temperature, weather condition, humidity, and wind speed.
+
+Features:
+Search bar for entering city or country names.
+Displays current weather, including temperature, weather description, humidity, and wind speed.
+Clean and simple user interface with intuitive design.
+Tech Stack:
+HTML
+CSS
+JavaScript (with an API integration)
+        </p>
+        <div class="mb-5">
+          <a
+            href="https://anniesalis-shecodes-weather-project.netlify.app/"
+            class="secondary-link project-link"
+            title="Weather project"
+            >Launch App</a
+          >
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <a href="https://anniesalis-shecodes-weather-project.netlify.app/">
+        <img
+          src="/others/images/weather-app.png"
+          class="img-fluid rounded d-none d-sm-block"
+          alt="Weather project by annie salis"
+        />
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <a href="https://poemgeneratorbyanniesalis.netlify.app/">
+        <img
+          src="/others/images/poem-generator.png"
+          class="border border-secondary img-fluid rounded pb-5 d-none d-sm-block"
+          alt="AI poem-generator by annie salis"
+        />
+      </a>
+      </div>
+      <div class="col-sm-6">
+        <h2 class="mt-0 text-light">Poem Generator</h2>
+        <p>
+          
+The Poem Generator allows users to input a topic, and it generates a poem based on the input. The user-friendly interface makes it easy for anyone to generate a poem with just a few clicks.
+
+Features:
+Input field for entering a topic (e.g., love, flowers, mothers).
+Generates a unique poem based on the input.
+Simple and elegant design with minimalistic UI.
+Tech Stack:
+HTML.
+CSS.
+JavaScript.
+        </p>
+        <div class="mt-1">
+         
+          <a
+            href="https://poemgeneratorbyanniesalis.netlify.app/"
+            class="secondary-link project-link"
+            title="AI poem generator project"
+            >Launch App</a>
+         </div>
+      </div>
+    </div>
+    <br>
+<br>
+     <hr>
+
+     <h2 id="services" class="text-light text-bold">Services</h2> 
+ 
+    
+
+            <div class="container-2 text-center">
+ <div class="row">
+<div class="col-sm-12"  id="services"> <img src="/others/images/va.png" alt="virtual assistant" class="img-fluid"> </div>
+<div class="col-sm-12" id="services"><img src="/others/images/webdev.png" class="img-fluid" alt="web development"></div>
+</div> 
+<div class="row">
+  <div class="col-sm-6"><img src="/others/images/contentcreation.jpg" class="img-fluid" alt="virtual assistant"> </div>
+ 
+  <div class="col-sm-6" id="services"><img src="/others/images/unnamed.jpg" class="img-fluid" alt="virtual assistant"></div>
+  </div> 
+
+<div class="row">
+  <div class="col-sm-6"> 
+<img src="/others/images/adminsupport.png" class="admin img-fluid" alt="virtual assistant">
+  </div>
+  <div class="col-sm-6"> 
+    <img src="/others/images/cs.png" class="img-fluid" alt="virtual assistant">
+      </div>
+      
+  
+</div>
+</div>
+
+        <div class="row">
+            <div class="col-sm-6"> 
+                <div class="mt-5 text-center" id="contact">
+                    <div class="fs-2 fw-bold">Contact</div>
+                <a href="mailto:anniesalis01@gmail.com">📧Booking</a>
+            </div>
+
+            </div>
+            <div class="col-sm-6"> 
+                <div class="mt-5 text-center" id="contact">
+                    <div class="fw-bold fs-4">Feedback</div>
+                <a href="https://docs.google.com/forms/d/1tTMC57KmEfBnhqtwbbCLVXd3kiP5pJTtGWzD3X1pPE8/prefill" target="_blank" >Feedback/Reviews
+                </a>
+            </div>
+           </div>
+    </div>
+    <br>
+    <br>
+    
+    <div class="text-center fs-1 fw-bold mt-5">About Me - Annie Salis</div>
+    <div class="container2 m-3">
+        <div class="row">
+            
+                <div class="col-sm-12"> <img src="/others/images/about-me.jpg" class="about-annie img-fluid " alt="annie-salis">   </div>              
+                </div>
+                
+            <br>
+            <div class="row">
+            <div class="biography col-sm-12 b text-secondary" id="biography">
+              <p>
+              I’m Annie Salis, a Frontend Engineer and Virtual Assistant.
+              With a robust background in front-end development,
+               I specialize in crafting user-friendly, aesthetically appealing websites
+                and interfaces using HTML, CSS, BootStrap and JavaScript, and React.js.
+                <br> <br>
+                I thrive on building functional and innovative solutions, 
+                 and my current project is a "Budget and Expense Tracker" 
+                 app designed to help users streamline their expenses.
+               My aim is to combine creativity with technology to deliver 
+               meaningful and impactful solutions to everyday problems. 
+               <br> <br>
+               My tech journey started in 2020, learning JavaScript, I was interrupted 
+               by the demands of my banking career. But once I took the leap in 2023, 
+               I fully immersed myself in Web Development/Engineering, gaining skills in
+                JavaScript, React, HTML, CSS, and Bootstrap. 
+
+              <br> <br>
+
+              Currently a master's student at the University of Porto,
+               blending creativity and strategy to enhance organizational 
+               communications. 
+               <br> <br>
+              Before fully transitioning into Tech, I was in the Banking Industry
+               where I worked as a Relationship Manager for over 5years. 
+              With extensive experience as a Relationship Manager in banking, 
+              I developed strong client relations, communication, and problem-solving skills.
+              While in Keystone Bank, I consistently sold the bank’s products and 
+              investment services, brought in new clients and reactivated dormant accounts,
+               resulting in revenue increase with over  240%.
+It was a great experience working in sales however, as much as I excelled,
+ I realized I wanted something that aligned with my passion for technology and innovation.
+<br> <br>
+Today, I specialize in Frontend Development/Engineering  as a freelancer. 
+<br>
+Achievements; 
+
+৹ I craft dynamic websites for businesses with user-friendly experiences. 
+৹ I have created more than 10 projects which are all available on my GitHub page or my portfolio.
+<br> <br>
+Combining my experiences and skills administrative support allows me to approach each project with exceptional organization and an eye for efficiency, ensuring that both the technical and administrative aspects are seamless.
+
+As a virtual assistant I assist brands with Remote Administrative Support like: 
+<ul>
+  <li>
+    Calendar & Email Management.
+  </li>
+  <li>
+    Data Entry & Research Assistance
+  </li>
+  <li>
+    Customer Service Support.
+  </li>
+  <li>
+    Social Media Management.
+
+  </li>
+  <li>
+    Research and Report Generation.
+  </li>
+  <li>
+    Task Automation & Project Management 
+  </li>
+</ul>
+
+
+These skills enable me to contribute to various areas, from client relations and customer support to social media management and lead generation. I'm always focused on creating value and saving time for those I work with. 
+
+</p>
+              
+            </div>
+            
+            </div>
+            <br>
+            <br>
+            <footer> 
+              <a href="https://www.instagram.com/anniesalis1/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://github.com/anniesalis" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/anniesalis1/"><i class="fa-brands fa-linkedin"></i></a>
+            </footer>
+        <br>
+  <p class="text-center portfolio">
+    This project was coded by <a href="https://www.shecodes.io/graduates/132246-annie-salis-akor">Annie Salis</a>
+    </a>
+
+
+    <br>
+    <button>Change Theme</button>
     </main>
     <br>
     <br>
-    <br>
-
-    <footer> 
-      <a href="https://www.instagram.com/anniesalis1/"><i class="fa-brands fa-instagram"></i></a>
-      <a href="https://github.com/anniesalis" target="_blank"><i class="fa-brands fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/anniesalis1/"><i class="fa-brands fa-linkedin"></i></a>
-    </footer>
-  </div>
+    </div>
   
     
       
       
        
-         
+   
       </div>   
       
         <br>   
       
-  <script src="/src/index.js"></script>
+ 
+   
 </div>
+
 
 </body>
 </html>
