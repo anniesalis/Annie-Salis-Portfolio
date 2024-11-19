@@ -142,6 +142,14 @@ padding: 10px ;
     color: #fff;
   }
 
+  .bio {
+    border-radius: 100%;
+    padding: 20px;
+    font-weight: 900;
+    color: brown;
+    background-color: rgb(206, 144, 64);
+    
+  }
   
 
   
@@ -181,7 +189,7 @@ padding: 10px ;
   
   .primary-link {
     display: inline-block;
-    font-size: 10px;
+    font-size: 12px;
     margin: 10px auto;
     border-radius: 10px;
     padding: 20px 15px;
@@ -201,7 +209,7 @@ padding: 10px ;
     max-width: 100%;
     background-color: var(--primary-color);
   color: whitesmoke;
-  font-size: 10px;
+  font-size: 12px;
   max-width: 100%;
   }
  
@@ -220,6 +228,9 @@ padding: 10px ;
    .annie-pic {
    width:  70px;
    border-radius: 10px;
+   }
+   .work-shop {
+    display: none;
    }
   }
   
