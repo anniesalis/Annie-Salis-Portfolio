@@ -1,13 +1,14 @@
 
 
 :root {
-    --primary-color: #6c63ff; 
-    --secondary-color: #f5f2fe;
+    --primary-color: #839788; 
+    --secondary-color: #ebd5b3;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);    
 }
 
 body {
     margin: 100px 0;
+    background: #eee0cb;
 }
 main {
     text-align: center;
@@ -35,13 +36,14 @@ footer {
     justify-content: center;
     justify-content: space-evenly;
 }
-.annie-pic {
-    width: 100px;
-    border-radius: 10%;
-}
 
+.annie-salis {
+  border-radius: 100%;
+
+
+}
 .annie {
-  color: blueviolet;
+  color: var(--primary-color);
   font-size: 40px;
 }
 
@@ -66,7 +68,7 @@ padding: 10px ;
 
 .container {
     
-    background-color: black; 
+    background-color: #a5b3a9; 
     
     
     }
@@ -84,7 +86,7 @@ padding: 10px ;
   }
   
   .primary-link:hover {
-    background: rgb(92, 68, 179);
+    background: var(--primary-color);
     color: white;
     opacity: 0.6;
 
@@ -125,29 +127,28 @@ padding: 10px ;
   }
   
   .dark {
-    background: white;
-    color: black;
+    background: hwb(0 3% 97%);
+    color: rgb(247, 235, 235);
   }
   .dark a {
-    color: black;
+    color: rgb(189, 179, 179);
     
   }
   .dark p {
-    color: black;
+    color: rgb(241, 237, 237);
   }
   .dark .container {
-    background: #fff;
+    background: #080808;
   }
   .dark {
-    color: #fff;
+    color: #0a0a0a;
   }
 
   .bio {
     border-radius: 100%;
     padding: 20px;
     font-weight: 900;
-    color: brown;
-    background-color: rgb(206, 144, 64);
+    background-color: #869fb4
     
   }
   
@@ -181,7 +182,7 @@ padding: 10px ;
   
  
   .primary-link:hover {
-    background: rgb(92, 68, 179);
+    background: var(--primary-color);
     color: white;
     opacity: 0.6;
 
@@ -195,7 +196,7 @@ padding: 10px ;
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
-    color: var(--primary-color);
+    color: #5c685f;
     border: 1px solid var(--primary-color);
     max-width: 100%;
   }
@@ -205,10 +206,10 @@ padding: 10px ;
     border-radius: 10px;
     padding: 20px 15px;
     text-decoration: none;
-    border: 1px solid wvar(--primary-color);
+    border: 1px solid var(--primary-color);
     max-width: 100%;
     background-color: var(--primary-color);
-  color: whitesmoke;
+  color: white;
   font-size: 12px;
   max-width: 100%;
   }
