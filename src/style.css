@@ -9,7 +9,7 @@
 body {
     margin: 100px 0;
     background-image: linear-gradient(#a5b3a9, var(--primary-color));
-
+    font-family: 'Times New Roman', Times, serif;
 }
 main {
     text-align: center;
@@ -73,7 +73,7 @@ padding: 10px ;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--secondary-color);
+  color: white;
   border: 2px solid var(--secondary-color);
   font-weight: 700;
 }
@@ -84,7 +84,7 @@ padding: 10px ;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--secondary-color);
+  color: white;
   border: 2px solid var(--secondary-color);
   font-weight: 700;
 }
@@ -164,9 +164,14 @@ padding: 10px ;
   
   
 @media (max-width: 756px) {
-  
+  .theme {
+    border-radius: 10px;
+    box-shadow: 0 4px 7px #839788;
+    background-color: var(--secondary-color);
+  }
+    
     stan {
-      font-size: 48px;
+       font-size: 48px;
       line-height: 1.5;
     }
   
@@ -178,18 +183,14 @@ padding: 10px ;
     p {
       text-align: left;
       font-size: 13px;
+      color: white;
+      text-align: justify;
       
     }
   
   
   
  
-  .primary-link:hover {
-    background: var(--secondary-color);
-    color: white;
-    opacity: 0.6;
-
-  }
   
   .primary-link {
     display: inline-block;
@@ -200,7 +201,7 @@ padding: 10px ;
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
-    color: var(--secondary-color);
+    color: white;
     border: 1px solid var(--secondary-color);
     max-width: 100%;
   }
@@ -213,12 +214,18 @@ padding: 10px ;
     border: 1px solid var(--secondary-color);
     max-width: 100%;
     background-color: var(--primary-color);
-  color: var(--secondary-color);
+  color: white;
   font-size: 12px;
   font-weight: 700;
   max-width: 100%;
   }
  
+  .primary-link:hover {
+    background: var(--secondary-color);
+    color: white;
+    opacity: 0.6;
+
+  }
    
 .secondary-link:hover {
   color: black;
